@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-header{
+            background-color: white;
+            text-align: left;
+           
+            
+        }
+        h1,h2 {
+            text-align: center;
+            color: black;
+        }
+        .thala{
+            text-align: center;
+            border: 10px;
+            margin: 30px;
+            margin-left: 300px;
+            margin-right: 300px;
+            background-color: beige;
+        }
+       
+        
+    </style>
+   
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <img src="./images/digi-removebg-preview (3).png" alt="Company Logo" class="header-logo"> 
+        <h1 >Digi Brains Academy</h1>
+       
+        
+    </header>
+    
+    <!-- Form  Section  -->
+    <form action="Internshid.php" method="post" autocomplete="off" target="_blank" class="thala">
+        <h2 style="padding-top:10px ;">Internship Application Form</h2><br>
+        <!--User Name-->
+        <!--Used Text Field-->
+        <label for=" USER NAME"> Enter Full Name</label>
+        <input type="text" id="USER NAME" Name="uname"> <br> <br>
+        
+        <!--Used Email Field-->
+        <label for=" USER MAIL ID"> Enter  Email id</label>
+        &nbsp;&nbsp;&nbsp;<input type="email" id="USER MAIL ID" Name="Email"><br> <br>
+       
+        <!--Used Telphone  Field-->
+        <label for="UMOBBILE NUMBER"> Mobile Number</label>
+        &nbsp;<input type="tel" id="UMOBBILE NUMBER" name="UMOBBILE NUMBER"  required><br><br>
+        
+        <!--DOB-->
+        <label for="dob" >Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required ><br>
+    
+       
+        <!--Gender-->
+        <label for="" >Gender</label><br>
+        <input type="radio" id="male" name="Gender" value="Male">
+        <label for="male"> Male</label> <br>
+        &nbsp;&nbsp;&nbsp;<input type="radio" id="Female" name="Gender" value="Female">
+        <label for="Female"> Female</label> <br>
+        <input type="radio" id="Other" name="Gender" value="Other">
+        <label for="Other"> Other</label><br>
+        
+        <!--Iintenship Domain-->
+        <label for=""> Preferred Internship Domain</label><br>
+        <input type="radio" id="Web Development" name="Web Development">
+        <label for="Web Development">Web Development</label><br>
+        &nbsp;&nbsp;&nbsp;<input type="radio" id="Python Programming" Name="Python Programming">
+        <label for="Python Programming">Python Programming</label><br>
+        <input type="radio" id="Java Programming" name="Java Programming">
+        <label for="Java Programming">Java Programming</label><br>
+        <input type="radio" name="Artificial Intelligence" id="Artificial Intelligence">
+        <label for="Artificial Intelligence">Artificial Intelligence</label><br> <br>
+        
+        <!--Country-->
+        
+        <!--Used Drop Box Field-->
+        
+        <label for="country">Country:</label>
+        <select id="country" name="country"     required>
+        <option value="">Select Country</option>
+        <option value="US">United States</option>
+        <option value="IN">India</option>
+        <option value="UK">United Kingdom</option>
+        <option value="FL">Finland</option>
+        <option value="Om">Oman</option>
+        <option value="UQT">Qatar</option>
+        </select><br><br>
+        
+        <!--State-->
+        <!--Used Drop Box Field-->
+        
+        <label for="State">Country:</label>
+        <select id="State" name="State"     required>
+        <option value="">Select State </option>
+        <option value="UK">Arunachala Pradesh</option>
+        <option value="AP">Andhra Pradesh</option>
+        <option value="KA">Karnataka</option>
+        <option value="TS">Telangana</option>
+        <option value="TN">Tamil Nadu</option>
+        </select><br><br>
+        
+        <!--College Name-->
+        <!--Used Text Field-->
+        <label for="cname">College</label>
+        <input type="text" placeholder="Enter College Full Name" id="cname" name="cname"> <br> <br>
+        <!--Used Telphone  Field-->
+        <label for="WHATSAPP NUMBER"> Whatsapp Number</label>
+        <input type="tel" id="WHATSAPP NUMBER" name="WHATSAPP NUMBER"><br><br>
+        
+        <!-- Form Text Area-->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" placeholder="Write your message" required></textarea><br>
+        <!--Submit -->
+        <input type="submit" name="" id="">
+
+    </form>
+</body>
+</html>
